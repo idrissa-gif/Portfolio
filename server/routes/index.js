@@ -13,7 +13,7 @@ var nodemailer = require('nodemailer');
 
 /* GET home page. */
 router.get('/', function (req, res, next) {
-    res.render('pages/index', { title: 'HAE YEON KANG' });
+    res.render('pages/index', { title: 'idrissa Mahamoudou Dicko' });
 });
 
 /* about me */
