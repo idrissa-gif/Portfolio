@@ -8,7 +8,6 @@
     "deploy": "gh-pages -d build",
     "build": "react-scripts build"
   },
-
   "repository": {
     "type": "git",
     "url": "https://github.com/lucykang/Portfolio-Website"
@@ -29,7 +28,7 @@
     "puppeteer": "^21.5.0",
     "react-scripts": "^5.0.1",
     "serve-favicon": "~2.3.0",
-    "yarn": "^1.22.19"
+    "yarn": "^1.22.21"
   },
   "devDependencies": {
     "gulp": "^3.9.1",
