@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "undefined/subscriptions/4bcde8cf-a86a-4a40-a3d5-af12b9b8839d/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/nodejs-portfolio-242",
+    "appService.deploySubpath": "."
+}

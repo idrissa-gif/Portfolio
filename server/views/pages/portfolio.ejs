@@ -1,0 +1,66 @@
+<!-- File name: portfolio.ejs
+     Author's name: Hae Yeon Kang (Lucy)
+     web site name: Hae Yeon's Portfolio Website
+     URL: haeyeonkang.azurewebsites.net
+     file description: This is a page that will display my previous works.
+-->
+
+<% include ../partials/header %>
+<body>
+    <header>
+<% include ../partials/navbar %>
+   </header>
+    <main class="main">
+        <div class="container">
+            <div class="page-header">
+                <h1> Portfolio </h1>
+            </div>
+
+            <!-- Projects -->
+            <div class="row">
+                <div class="col-md-6 portfolio-item">
+                    <a href="https://github.com/idrissa-gif/Tonga">
+                        <img class="img-responsive" src="../images/tonga.png" alt="Tonga Website">
+                    </a>
+                    <h4>
+                    <a href="https://github.com/idrissa-gif/Tonga">Tonga Website</a>
+                    </h4>
+                    <p>Travelling website for improving the field tourism on the African Continent built on Java Springboot alongside bootstrap.</p>
+                </div>
+                <div class="col-md-6 portfolio-item">
+                    <a href="https://idrissa-gif.github.io/Real_ImageToCartoon_Image_GAN//">
+                        <img class="img-responsive" src="../images/imagecartoon.png" alt="Contents-Management-Site">
+                    </a>
+                    <h4>
+                    <a href="https://idrissa-gif.github.io/Real_ImageToCartoon_Image_GAN//">Image to cartoon Using Machine Learning</a>
+                    </h4>
+                    <p>The model that AnimeGAN.js uses comes from AnimeGAN's released model</p>
+                </div>
+            </div>
+            <!-- end of first row -->
+
+            <!-- Projects -->
+            <div class="row">
+                <div class="col-md-6 portfolio-item">
+                    <a href="https://github.com/idrissa-gif/LBMS_PROJECT/tree/master">
+                        <img class="img-responsive" src="../images/student.png" alt="SLMS Site">
+                    </a>
+                    <h4>
+                    <a href="https://github.com/idrissa-gif/LBMS_PROJECT/tree/master">Library Management System</a>
+                    </h4>
+                    <p>LMS Website built using Javafx</p>
+                </div>
+                <div class="col-md-6 portfolio-item">
+                    <a href="#">
+                        <img class="img-responsive" src="../images/startup-593331_640.jpg" alt="More Projects to come">
+                    </a>
+                    <h4>
+                    <a href="#">And more..</a>
+                    </h4>
+                    <p>There are more projects to come!</p>
+                </div>
+            </div>
+            <!-- end of second row -->
+        </div>
+    </main>
+    <% include ../partials/footer %>
